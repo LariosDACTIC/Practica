@@ -10,8 +10,12 @@ public class Empleado {
         this.cargo = cargo;
     }
 
-    public double getSalario(){
+    public double getSalario() {
         return this.salario;
+    }
+
+    public void setSalario(double Nsalario) {
+        this.salario = Nsalario;
     }
 
 }
