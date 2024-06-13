@@ -37,6 +37,7 @@ public class App {
                     MostrarCatalogo();
                     break;
                 case 3:
+                
                     break;
                 case 4:
                     break;
@@ -79,4 +80,22 @@ public class App {
             System.out.println("=========================");
         }
     }
+
+    public static Producto BuscarProducto(String codProducto) {
+        Producto PSearch = null;
+        
+        for (Producto producto : productos) {
+
+            if (producto.CodProducto.equals(codProducto)) {
+                PSearch = producto;
+                break;
+            }
+        }
+        return PSearch;
+    }
+
+
+
+
+
 }
