@@ -18,6 +18,6 @@ public class Empleado {
         this.salario = Nsalario;
     }
 
-    ALALALA
+    
 
 }
